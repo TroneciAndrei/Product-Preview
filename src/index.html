@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="global.css" />
+    <title>Document</title>
+  </head>
+  <body class="flex justify-center items-center h-screen bg-[#f3eae3]">
+    <div
+      class="container border rounded-lg m-4 md:flex md:h-[40vh] md:w-[60vh] bg-white"
+    >
+      <img
+        src="../images/image-product-mobile.jpg"
+        alt="Product Image"
+        class="rounded-tl rounded-tr md:rounded-tr-none rounded-bl block md:hidden"
+      />
+
+      <img
+        src="../images/image-product-desktop.jpg"
+        alt="Product Image"
+        class="rounded-tl rounded-tr md:rounded-tr-none rounded-bl hidden md:block"
+      />
+
+      <div class="p-4">
+        <span class="uppercase text-lg tracking-wider mb-3 text-[#92929c]"
+          >Parfume</span
+        >
+        <h1 class="text-3xl font-bold tracking-wide mb-4">
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="text-lg mb-4 text-[#92929c]">
+          A floral, solar and voluptuous interpretation composed by Oliver
+          Polge, Parfumer-Creator for the House of CHANEL.
+        </p>
+
+        <div class="mb-5 flex items-center">
+          <span class="text-[#368266] text-3xl font-bold mr-2">$149.99</span>
+          <span class="line-through text-[#92929c]">$169.99</span>
+        </div>
+
+        <button
+          type="button"
+          title="Add to Cart"
+          class="bg-[#368266] text-center font-bold text-xl rounded-lg text-white w-full py-2"
+        >
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
